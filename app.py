@@ -31,7 +31,7 @@ def get_db_connection():
 def get_db_status():
     """
     Tries to connect to the database and run a simple query.
-    Returns a status string shown on the homepage.
+    Returns a status string shown on the homepage. THis is for demo purposes
     """
     connection = get_db_connection()
     if connection is None:
